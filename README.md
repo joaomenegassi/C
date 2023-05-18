@@ -1,4 +1,2 @@
 # C
-The hare and the turtle.
-
-C project for university.
+C projects for university.
