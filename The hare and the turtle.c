@@ -1,4 +1,4 @@
-//#define WINDOWS // Comente esta linha para usar no Linux/Unix!
+//#define WINDOWS // Comment this message to use in windows.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,11 +23,7 @@ int main()
     {
         moveTartaruga (rand()%10+1, &tartaruga);
         moveLebre (rand()%10+1, &lebre);
-
-        /*TODO: depois que você executar o programa, comente a chamada
-                para a  funcao imprimePosicoesAtuaisSimples() e
-                descomente chamada para a funcao imprimePosicoesAtuais()*/
-        //imprimePosicoesAtuaisSimples (tartaruga, lebre);
+        
         imprimePosicoesAtuais (tartaruga, lebre);
 
         #ifdef WINDOWS
